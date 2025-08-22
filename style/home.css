@@ -1,0 +1,136 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Federo&display=swap');
+@font-face{
+font-family: 'idroid';
+src: url(../fontes/idroid.otf) format('opentype');
+font-weight: normal;
+}
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+:root{
+    --cor01: #5671A6;
+    --cor02: #04328C;
+    --cor03: #033473;
+    --cor04: #7891c4;
+    --cor05: white;
+
+    --fonte-padrao: Arial, Verdana, sans-serif;
+    --fonte-destaque: "Federo", sans-serif;
+    --fonte-android: 'idroid', cursive
+}
+
+body{
+   font-family: var(--fonte-padrao);
+    background-color: #7891c4;
+}
+
+header{
+    background-image: linear-gradient(to bottom, #04328C,  #033473);
+    /*background-color: var(--cor03);*/
+    box-shadow: rgba(0, 0, 0, 0.171) 0px 19px 38px, rgba(0, 0, 0, 0.089) 0px 15px 12px;
+    min-height: 130px; 
+}
+
+header > h1 {
+    color: var(--cor05);
+    font-family: var(--fonte-destaque);
+    font-size: 60px;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.37);
+    padding-top: 20px;
+    padding-left: 30px;
+    margin: 0%;
+    letter-spacing: 30px;
+}
+
+header > p{
+color: var(--cor04);
+font-weight: bold;
+margin-left: 15px;
+text-align: justify;
+font-size: 15pxpx;
+padding-bottom: 5px;
+padding-left: 32px;
+margin: 0px;
+letter-spacing: 17px;
+}
+
+nav{
+    background-color: #0f5abb;
+    padding: 10px;
+}
+
+nav > a {
+    color:#D9D2D0;
+    margin-right: 16px;
+    margin-left: 17px;
+    text-decoration: none;
+    text-shadow: 1px 1px 4px rgba(59, 37, 56, 0.473);
+    box-shadow:rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;   
+    font-weight: bold;
+    font-size: 18px;
+    transition-duration: .2s;
+    
+}
+
+nav > a:hover{
+    text-decoration: underline;
+    background-color: #04318c3f;
+    padding-top: 10px;
+    padding-right: 16px;
+    padding-bottom: 10px;
+    padding-left: 17px;
+}
+
+main{
+    margin: auto;
+    background-color: #ffffff;
+    max-width: 1200px;
+    min-width: 350px;
+    display: flex;
+    text-align: justify;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 0px 0px 4px 4px;
+}
+
+
+main img {
+    background: #7891c434;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 30px;
+    border: 1px groove black
+}
+
+article{  
+    margin: auto;
+}
+
+article h2{
+    margin: 10px;
+    padding: 10px; 
+    font-family: "Federo", sans-serif; 
+}
+
+article > h2 > a{
+   text-decoration: none;
+   color: #033473;
+   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.212);
+}
+
+article p {
+    padding: 5px;
+    margin-right: 350px;
+    font-family: sans-serif;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+
+article > p > a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
