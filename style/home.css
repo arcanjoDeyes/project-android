@@ -88,7 +88,7 @@ main{
     margin: auto;
     background-color: #ffffff;
     max-width: 1200px;
-    min-width: 350px;
+    min-width: 300px;
     display: flex;
     text-align: justify;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
@@ -100,11 +100,13 @@ main img {
     background: #7891c434;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 30px;
-    border: 1px groove black
+    border: 1px groove black;
+    width: 10%;
 }
 
 article{  
     margin: auto;
+
 }
 
 article h2{
@@ -120,8 +122,6 @@ article > h2 > a{
 }
 
 article p {
-    padding: 5px;
-    margin-right: 250px;
     font-family: sans-serif;
     font-weight: normal;
     line-height: 1.3em;
