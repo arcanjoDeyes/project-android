@@ -24,7 +24,7 @@ font-weight: normal;
 
 body{
    font-family: var(--fonte-padrao);
-    background-color: #a6ff00;
+    background-color: #4074c2;
 }
 
 header{
@@ -101,7 +101,7 @@ main img {
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     margin: 30px;
     border: 1px groove black;
-    width: 10%;
+
 }
 
 article{  
