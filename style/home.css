@@ -84,6 +84,13 @@ nav > a:hover{
     padding-left: 17px;
 }
 
+div#conteudo{
+    display: flex;
+    max-width: 1350px;
+    min-width: 400px;
+    margin: auto;
+}
+
 main{
     margin: auto;
     background-color: #ffffff;
@@ -125,6 +132,8 @@ article p {
     font-family: sans-serif;
     font-weight: normal;
     line-height: 1.3em;
+    width: 60%;
+    height: 50%;
 }
 
 article > p > a{
